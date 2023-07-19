@@ -1,2 +1,2 @@
 # TiddlyWikiClassic-Sandbox
-This repo contains a collection of plugins/wikis for TiddlyWikiClassic
+This repo contains a collection of plugins and ready wikis for TiddlyWikiClassic
