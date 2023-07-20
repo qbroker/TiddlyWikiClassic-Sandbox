@@ -5,7 +5,7 @@ To try the plugins you can start the TiddlyWikiClassic from her below.
 mathWiki holds the matjs and MathJax plugins.\
 Use mathWiki to evaluate mathematical expressions with mathjs.\
 Transform mathematical expressions from text to nice looking svg's for usage in your wiki's.\
-To see this wiki in action go here [mathWiki](https://raw.githack.com/qbroker/TiddlyWikiClassic-Sandbox/main/mathWiki/mathWiki.html)
+To see this wiki in action go here [mathWiki](https://raw.githack.com/qbroker/TiddlyWikiClassic-Sandbox/main/mathWiki/mathWiki.html).
 
 
 ## How to get TiddlyWikiClassic running in a NW.js environment?
