@@ -5,8 +5,10 @@ To try the plugins you can start the TiddlyWikiClassic from her below.
 mathWiki holds the matjs and MathJax plugins.\
 Use mathWiki to evaluate mathematical expressions with mathjs.\
 Transform mathematical expressions from text to nice looking svg's for usage in your wiki's.\
-To see this wiki in action go here [mathWiki](https://raw.githack.com/qbroker/TiddlyWikiClassic-Sandbox/main/mathWiki/mathWiki.html).
-
+To see this wiki in action go here [mathWiki](https://raw.githack.com/qbroker/TiddlyWikiClassic-Sandbox/main/mathWiki/mathWiki.html)
+## pdfMakeTWC
+Create pdf's from your TiddlyWikiClassic content with the pdfmake.js library, info about the library can be found here: http://pdfmake.org/ \
+To see this wiki in action go here [pdfMakeTWC](https://raw.githack.com/qbroker/TiddlyWikiClassic-Sandbox/main/pdfMakeTWC/pdfMakeTWC.html)
 
 ## How to get TiddlyWikiClassic running in a NW.js environment?
 Go to [hiveBroker](https://github.com/qbroker/hiveBroker) and download `hiveBroker`, follow the instructions to install.\
