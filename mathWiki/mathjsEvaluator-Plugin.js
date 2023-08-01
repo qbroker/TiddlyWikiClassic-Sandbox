@@ -1,8 +1,8 @@
 /***
 |Name |mathjsEvaluator-Plugin.js |
-|Version |0.0.6 |
+|Version |0.0.7 |
 |Version library | |
-|Description |Evaluate mathematical functions in TiddlyWikiClassic |
+|Description |Evaluate mathematical functions in [[TiddlyWikiClassic]] |
 |Source |mathjsEvaluator-Source |
 |Documentation | |
 |Author |Okido |
@@ -11,7 +11,7 @@
 |Core version | |
 |Plugin type |systemConfig |
 |Status |EXPERIMENTAL - SUBJECT TO CHANGE |
-|Build date - time |19-07-2023 - 10:30, build with [[pluginBuilder-Plugin.js]] |
+|Build date - time |01-08-2023 - 11:04, build with [[pluginBuilder-Plugin.js]] |
 
 !!!Documentation
 <<<
@@ -45,9 +45,6 @@ This plugin depends on the [[mathjs-Plugin.js]].
 <<<
 !!!License
 <<<
-!!License for the third party library code
-null
-
 !!License for the TiddlyWikiClassic plugin code
 MIT License
 
@@ -75,7 +72,7 @@ SOFTWARE.
 ***/
 //{{{
 /* JavaScript CODE STARTS HERE */
-/* Minified with Terser.js - 19-07-2023 */
+/* Minified with Terser.js - 01-08-2023 */
 "object"!=typeof config.macros.mathjsevaluator?config.macros.mathjsevaluator={}:config.macros.mathjsevaluator,config.macros.mathjsevaluator.separator=" gives ",config.macros.mathjsevaluator.handler=function(a,o,t,r,e,s){const c=()=>"true"===t[1],m=a=>math.evaluate(a),i=t[0];let n=c()?`${i}${config.macros.mathjsevaluator.separator}${m(i)}`:`${m(i)}`;wikify(n,a)};
 /* JavaScript CODE ENDS HERE */
 //}}}

@@ -1,8 +1,8 @@
 /***
 |Name |MathJaxProcessor-Plugin.js |
-|Version |0.0.7 |
+|Version |0.0.8 |
 |Version library | |
-|Description |Use nice looking svg mathematical functions in TiddlyWikiClassic |
+|Description |Use nice looking svg mathematical functions in [[TiddlyWikiClassic]] |
 |Source |MathJaxProcessor-Source |
 |Documentation | |
 |Author |Okido |
@@ -11,7 +11,7 @@
 |Core version | |
 |Plugin type |systemConfig |
 |Status |EXPERIMENTAL - SUBJECT TO CHANGE |
-|Build date - time |19-07-2023 - 10:40, build with [[pluginBuilder-Plugin.js]] |
+|Build date - time |01-08-2023 - 11:06, build with [[pluginBuilder-Plugin.js]] |
 
 !!!Documentation
 <<<
@@ -35,9 +35,6 @@ This plugin depends on the [[MathJax-Plugin.js]].
 <<<
 !!!License
 <<<
-!!License for the third party library code
-null
-
 !!License for the TiddlyWikiClassic plugin code
 MIT License
 
@@ -65,7 +62,7 @@ SOFTWARE.
 ***/
 //{{{
 /* JavaScript CODE STARTS HERE */
-/* Minified with Terser.js - 19-07-2023 */
+/* Minified with Terser.js - 01-08-2023 */
 "object"!=typeof config.macros.mathjaxprocessor?config.macros.mathjaxprocessor={}:config.macros.mathjaxprocessor,config.macros.mathjaxprocessor.separator=" gives ",config.macros.mathjaxprocessor.handler=function(o,a,r,e,s,c){const t=r[0];try{MathJax.typesetClear();let a=(i=t,MathJax.tex2svg(i,{em:46,ex:16,display:!1})),r=(new XMLSerializer).serializeToString(a);wikify("<html>"+r+"</html>",o)}catch(o){console.log(o)}var i};
 /* JavaScript CODE ENDS HERE */
 //}}}
